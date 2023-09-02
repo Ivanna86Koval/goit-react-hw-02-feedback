@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import {Container} from 'GlobalStyle'
 import { Statistics } from './Statistics/Statistics';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Section } from './Section/Section';
