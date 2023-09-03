@@ -3,20 +3,18 @@ import 'modern-normalize';
 export const RootStyle = createGlobalStyle`
 
 body {
+  background: linear-gradient(to bottom, #1c2748, #5d5959);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-ul {
+/*ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -24,5 +22,5 @@ ul {
 
 #root {
   
-}
+}*/
 `;
